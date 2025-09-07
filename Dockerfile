@@ -6,4 +6,4 @@ WORKDIR /app
 
 COPY target/api-gateway-1.0.jar /app
 
-CMD ["java", "jar","api-gateway-1.0.jar"]
+CMD ["java", "-jar","api-gateway-1.0.jar"]
